@@ -28,7 +28,7 @@ Replace YOUR_FILE_NAME with the actual tex file name.
 Under the MIT License. See [LICENSE](/LICENSE) for details.
 
 
-## 謝辞
+## Acknowledgments
 - Based on [Paperist/texlive-ja: The minimal TeXLive Docker image for Japanese](https://github.com/Paperist/texlive-ja) docker image.
 - Thanks for [emath](http://emath.s40.xrea.com/).
 
