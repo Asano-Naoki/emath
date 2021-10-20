@@ -1,4 +1,4 @@
-[日本語版 README はこちら](/README-ja.md)
+[日本語版 README はこちら](/README_ja.md)
 
 # asanonaoki/emath
 The minimal [emath](http://emath.s40.xrea.com/) docker image
