@@ -1,5 +1,5 @@
 # asanonaoki/emath
-emathを使うための最小限のdockerイメージ
+[emath](http://emath.s40.xrea.com/)を使うための最小限のdockerイメージ
 
 
 ## 機能
@@ -19,7 +19,7 @@ YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてく
 
 
 ## 著者
-[浅野直樹](https://asanonaoki.com/blog/ 浅野直樹の学習日記)
+[浅野直樹](https://asanonaoki.com/blog/)
 
 
 ## ライセンス
@@ -27,5 +27,6 @@ MITライセンスの元にライセンスされています。詳細は[LICENSE
 
 
 ## 謝辞
-
+[Paperist/texlive-ja: The minimal TeXLive Docker image for Japanese](https://github.com/Paperist/texlive-ja)のdockerイメージをもとに拡張しました。
+これまで[emath](http://emath.s40.xrea.com/)にお世話になってきたので、これを簡単に使えるようにしました。
 
