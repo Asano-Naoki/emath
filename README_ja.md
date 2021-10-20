@@ -27,6 +27,6 @@ MITライセンスの元にライセンスされています。詳細は[LICENSE
 
 
 ## 謝辞
-[Paperist/texlive-ja: The minimal TeXLive Docker image for Japanese](https://github.com/Paperist/texlive-ja)のdockerイメージをもとに拡張しました。
-これまで[emath](http://emath.s40.xrea.com/)にお世話になってきたので、これを簡単に使えるようにしました。
+- [Paperist/texlive-ja: The minimal TeXLive Docker image for Japanese](https://github.com/Paperist/texlive-ja)のdockerイメージをもとに拡張しました。
+- これまで[emath](http://emath.s40.xrea.com/)にお世話になってきたので、これを簡単に使えるようにしました。
 
