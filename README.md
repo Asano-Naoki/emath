@@ -1,5 +1,7 @@
+[日本語版 README はこちら](/README-ja.md)
+
 # asanonaoki/emath
-The minimal [emath](http://emath.s40.xrea.com/) Docker image
+The minimal [emath](http://emath.s40.xrea.com/) docker image
 
 
 ## Summary
@@ -23,7 +25,7 @@ Replace YOUR_FILE_NAME with the actual tex file name.
 
 
 ## License
-Under the MIT License.See [LICENSE](/LICENSE) for details.
+Under the MIT License. See [LICENSE](/LICENSE) for details.
 
 
 ## 謝辞
