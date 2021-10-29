@@ -38,7 +38,18 @@ If you would like to use sty and/or fonts files, add these setting in the .latex
 
 By doing so, sty files in your sty subdirectory and fonts files in your fonts subdirectory are included.
 
-### Via Texworks
+Directory structure
+<pre>
+.
+├── .latexmkrc
+├── YOUR_FILE_NAME.tex
+├── fonts
+│   └── bar.ttc
+└── sty
+    └── foo.sty
+</pre>
+
+### Via TeXworks
 (Under construction)
 
 ## Author
