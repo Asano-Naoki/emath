@@ -28,7 +28,7 @@ First, create .latexmkrc file. Example is below:
 
 Now, you can use latexmk command.
 ```
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath:latest sh -c 'latexmk YOUR_FILE_NAME.tex'
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'latexmk YOUR_FILE_NAME.tex'
 ```
 Replace YOUR_FILE_NAME with the actual tex file name.
 
