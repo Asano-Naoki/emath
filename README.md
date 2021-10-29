@@ -58,11 +58,13 @@ To use this image via TeXworks, adjusting typesetting is mandatory.
 1. Edit appropriately.
     1. Any name will do. I put "docker_latexmk"
     1. Program is "docker"
-    1. Arguments are "run", "--rm", "-v", "$directory:/workdir", "asanonaoki/emath", "latexmk", "-pdfdvi", "$basename". Put each of them in the seperate box. Clicking "+" icong enables you to put another argument.
+    1. Arguments are "run", "--rm", "-v", "$directory:/workdir", "asanonaoki/emath", "latexmk", "-pdfdvi", "$basename". Put each of them in the seperate box. Clicking "+" icon enables you to put another argument.
     1. Check "View PDF after running"
     1. Click "OK"
-
 <img src="./texworks_setting1.png">
+1. Confirm the processing tool(docker_latexmk) appears in the list. I recommend you set the tool(docker_latexmk) default.
+<img src="./texworks_setting1.png">
+I deleted all the "Paths for TeX and related programs" and "Processing tools" other than the created one(docker_latexmk) for brevity. It is not necessary to do this.
 
 ## Author
 [Asano Naoki](https://asanonaoki.com/blog/)
