@@ -23,8 +23,8 @@ Replace YOUR_FILE_NAME with the actual tex file name.
 
 ### Advanced Usage(latexmk)
 First, create .latexmkrc file. Example is below:
->$latex = 'platex -synctex=1 -shell-escape %O %S';
->$dvipdf = 'dvipdfmx %O -o %D %S';
+>$latex = 'platex -synctex=1 -shell-escape %O %S';  
+>$dvipdf = 'dvipdfmx %O -o %D %S';  
 
 Now, you can use latexmk command.
 ```
@@ -33,8 +33,9 @@ docker run --rm -it -v $PWD:/workdir asanonaoki/emath:latest sh -c 'latexmk YOUR
 Replace YOUR_FILE_NAME with the actual tex file name.
 
 If you would like to use sty and/or fonts files, add these setting in the .latexmkrc file like this:
->ensure_path('TEXINPUTS', './sty//');
->ensure_path('OSFONTDIR', './fonts');
+>ensure_path('TEXINPUTS', './sty//');  
+>ensure_path('OSFONTDIR', './fonts');  
+
 By doing so, sty files in your sty subdirectory and fonts files in your fonts subdirectory are included.
 
 ### Via Texworks
