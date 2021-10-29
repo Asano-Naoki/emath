@@ -62,8 +62,8 @@ To use this image via TeXworks, adjusting typesetting is mandatory.
     1. Check "View PDF after running"
     1. Click "OK"
 <img src="./texworks_setting1.png">
-1. Confirm the processing tool(docker_latexmk) appears in the list. I recommend you set the tool(docker_latexmk) default.
-<img src="./texworks_setting1.png">
+5. Confirm the processing tool(docker_latexmk) appears in the list. I recommend you set the tool(docker_latexmk) default.
+<img src="./texworks_setting2.png">
 I deleted all the "Paths for TeX and related programs" and "Processing tools" other than the created one(docker_latexmk) for brevity. It is not necessary to do this.
 
 ## Author
