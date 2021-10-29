@@ -1,7 +1,7 @@
 [日本語版 README はこちら](/README_ja.md)
 
 # asanonaoki/emath
-The minimal [emath](http://emath.s40.xrea.com/) docker image
+The minimal [emath](http://emath.s40.xrea.com/)(Japanese only) docker image
 
 
 ## Summary
@@ -32,7 +32,7 @@ docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'latexmk -pdfdvi YOU
 ```
 Replace YOUR_FILE_NAME with the actual tex file name.
 
-If you would like to use sty and/or fonts files, add these setting in the .latexmkrc file like this:
+If you would like to use sty and/or fonts files, add these settings in the .latexmkrc file like this:
 >ensure_path('TEXINPUTS', './sty//');  
 >ensure_path('OSFONTDIR', './fonts');  
 
@@ -53,7 +53,7 @@ Directory structure
 (Under construction)
 
 ## Author
-[Asano Naoki](https://asanonaoki.com/blog/)(Japanese)
+[Asano Naoki](https://asanonaoki.com/blog/)(Japanese only)
 
 
 ## License
