@@ -14,8 +14,8 @@ docker pull asanonaoki/emath
 ## 使い方
 ### 原始的な使い方
 ```
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'platex -shell-escape YOUR_FILE_NAME.tex'
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'dvipdfmx YOUR_FILE_NAME.dvi'
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath platex -shell-escape YOUR_FILE_NAME.tex
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath dvipdfmx YOUR_FILE_NAME.dvi
 ```
 YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてください。
 
@@ -26,7 +26,7 @@ YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてく
 
 これで以下のコマンドが実行できるようになります。
 ```
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'latexmk -pdfdvi YOUR_FILE_NAME.tex'
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath latexmk -pdfdvi YOUR_FILE_NAME.tex
 ```
 YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてください。
 
