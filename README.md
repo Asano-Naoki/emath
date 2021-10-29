@@ -51,6 +51,7 @@ Directory structure
 
 ### Via TeXworks
 (Under construction)
+<img src="./texworks_setting1.png">
 
 ## Author
 [Asano Naoki](https://asanonaoki.com/blog/)
