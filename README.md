@@ -52,15 +52,15 @@ Directory structure
 ### Via TeXworks
 To use this image via TeXworks, adjusting typesetting is mandatory.
 
-1.Click "Edit" and "Preferences..."
-1.Choose the "Typesetting" tab.
-1.Click "+" icon at the bottom of the Processing tools.
-1.Edit appropriately.
+1. Click "Edit" and "Preferences..."
+1. Choose the "Typesetting" tab.
+1. Click "+" icon at the bottom of the Processing tools.
+1. Edit appropriately.
     1. Any name will do. I put "docker_latexmk"
-    1.Program is "docker"
-    1.Arguments are "run", "--rm", "-v", "$directory:/workdir", "asanonaoki/emath", "latexmk", "-pdfdvi", "$basename". Put each of them in the seperate box. Clicking "+" icong enables you to put another argument.
-    1.Check "View PDF after running"
-    1.Click "OK"
+    1. Program is "docker"
+    1. Arguments are "run", "--rm", "-v", "$directory:/workdir", "asanonaoki/emath", "latexmk", "-pdfdvi", "$basename". Put each of them in the seperate box. Clicking "+" icong enables you to put another argument.
+    1. Check "View PDF after running"
+    1. Click "OK"
 
 <img src="./texworks_setting1.png">
 
