@@ -50,7 +50,7 @@ Directory structure
 </pre>
 
 ### Via TeXworks
-Before going to further steps, read Advanced Usage(latexmk) above and make sure a pdf file is generated successfully through the command(from the teminal).
+Before going to further steps, read Advanced Usage(latexmk) above and make sure a pdf file is generated successfully through the command(from the terminal).
 
 To use this image via TeXworks, adjusting typesetting is mandatory.
 
