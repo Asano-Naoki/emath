@@ -52,7 +52,7 @@ Directory structure
 ### Via TeXworks
 To use this image via TeXworks, adjusting typesetting is mandatory.
 
-1. Click "Edit" and "Preferences..."
+1. After starting TeXworks, click "Edit" and "Preferences..."
 1. Choose the "Typesetting" tab.
 1. Click "+" icon at the bottom of the Processing tools.
 1. Edit appropriately.
