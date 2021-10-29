@@ -1,7 +1,7 @@
 [日本語版 README はこちら](/README_ja.md)
 
 # asanonaoki/emath
-The minimal [emath](http://emath.s40.xrea.com/)(Japanese only) docker image
+The minimal [emath](http://emath.s40.xrea.com/) docker image
 
 
 ## Summary
@@ -53,7 +53,7 @@ Directory structure
 (Under construction)
 
 ## Author
-[Asano Naoki](https://asanonaoki.com/blog/)(Japanese only)
+[Asano Naoki](https://asanonaoki.com/blog/)
 
 
 ## License
