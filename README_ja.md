@@ -26,7 +26,7 @@ YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてく
 
 これで以下のコマンドが実行できるようになります。
 ```
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'latexmk YOUR_FILE_NAME.tex'
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'latexmk -pdfdvi YOUR_FILE_NAME.tex'
 ```
 YOUR_FILE_NAMEの部分はtexファイルのファイル名に置き換えてください。
 
