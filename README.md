@@ -50,6 +50,8 @@ Directory structure
 </pre>
 
 ### Via TeXworks
+Before going to further steps, read Advanced Usage(latexmk) and make sure a pdf file is generated successfully through the command(from the teminal).
+
 To use this image via TeXworks, adjusting typesetting is mandatory.
 
 1. After starting TeXworks, click "Edit" and "Preferences..."
