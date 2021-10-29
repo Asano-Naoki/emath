@@ -16,14 +16,14 @@ docker pull asanonaoki/emath
 ## Usage
 ### Primitive Usage
 ```
-docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'platex YOUR_FILE_NAME.tex'
+docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'platex -shell-escape YOUR_FILE_NAME.tex'
 docker run --rm -it -v $PWD:/workdir asanonaoki/emath sh -c 'dvipdfmx YOUR_FILE_NAME.dvi'
 ```
 Replace YOUR_FILE_NAME with the actual tex file name.
 
 ### Advanced Usage(latexmk)
 First, create .latexmkrc file. Example is below:
->$latex = 'platex -synctex=1 -shell-escape %O %S';  
+>$latex = 'platex -shell-escape %O %S';  
 >$dvipdf = 'dvipdfmx %O -o %D %S';  
 
 Now, you can use latexmk command.
